@@ -1,0 +1,73 @@
+#smooth-accordion-warp h3 + div {
+    height: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: block!important;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+#smooth-accordion-warp {
+    height: auto;
+    margin-bottom: 20px;
+}
+#smooth-accordion-warp h3 {
+	font-size: 22px;
+	padding: 0px;
+	margin: 3px 0;
+	background: #F0F0F0;
+	line-height: 40px;
+}
+#smooth-accordion-warp h3 a:before {
+	content: "+";
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-size: 22px;
+	background: #000
+}
+#smooth-accordion-warp h3.open a:before {
+	content: "-";
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-size: 22px;
+	background: #000
+}
+#smooth-accordion-warp h3 a {
+    text-decoration: none!important;
+    color: #030303;
+
+}
+#smooth-accordion-warp h3>a {
+	padding-left: 50px;
+}
+#smooth-accordion-warp h3 a:focus {
+    outline: none!important;
+}
+.smooth-accordion-warp-content {
+	padding: 0 0 15px 54px;
+}
+
+#smooth-accordion-warp h3 a {
+	border-bottom: 0!important;
+}
+
+.smooth-accordion-warp-content {
+	 -webkit-transform: translateZ(0);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
